@@ -18,15 +18,6 @@
         };
     };
 
-    macros {
-        surround_quotes: surround_quotes {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp>;
-            label = "SURROUND_QUOTES";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
