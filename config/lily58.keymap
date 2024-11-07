@@ -118,11 +118,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans             &trans            &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans            &trans           &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans
+&trans          &trans     &trans         &trans  &trans  &trans                    &trans  &trans             &trans            &trans           &trans  &trans
+&kp QUESTION    &kp QMARK  &kp LS(MINUS)  &trans  &trans  &trans                    &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans
+&kp UNDERSCORE  &kp UNDER  &trans         &trans  &trans  &trans                    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &trans
+&trans          &trans     &trans         &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans            &trans           &trans  &trans
+                                          &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans
             >;
         };
     };
