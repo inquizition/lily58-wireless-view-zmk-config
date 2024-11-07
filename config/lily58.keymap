@@ -89,7 +89,7 @@
 &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &trans           &trans           &trans           &trans           &trans         &trans
 &kp F1        &kp F1        &kp F2        &kp F3        &kp F10       &kp DOLLAR                                    &kp F7           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RA(W)      &kp RA(W)
 &kp GRAVE     &kp F4        &kp F5        &kp F6        &kp F11       &kp PRCNT                                     &kp CARET        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &o_double_dot  &a_double_dot
-&kp LS(BSLH)  &kp F7        &kp F8        &kp F9        &kp F12       &kp ASTERISK  &kp LS(N8)    &kp LS(NUMBER_9)  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBRC       &kp PIPE
+&kp LS(BSLH)  &kp F7        &kp F8        &kp F9        &kp F12       &kp ASTERISK  &kp LS(N8)    &kp LS(NUMBER_9)  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBRC       &kp RA(NON_US_BACKSLASH)
                                           &trans        &trans        &trans        &trans        &trans            &kp KP_NUMBER_0  &kp DEL          &trans
             >;
 
@@ -106,10 +106,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESC           &kp EXCL      &kp AT_SIGN      &kp HASH                      &kp DOLLAR  &kp PERCENT                                        &kp RBRC     &kp F8           &kp KP_MULTIPLY  &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp F12
-&kp TAB           &kp SQT       &kp KP_ASTERISK  &kp NUMBER_6                  &kp N4      &kp N5                                             &kp N6       &kp HOME         &kp UP_ARROW     &kp END          &kp PG_UP             &trans
-&kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3                  &kp F5      &kp F6                                             &trans       &kp LEFT         &kp DOWN         &kp RIGHT_ARROW  &kp PG_DN             &trans
-&kp LS(NUMBER_6)  &kp F8        &kp F9           &kp F10                       &kp F11     &kp F12      &kp RA(NUMBER_8)    &kp RA(NUMBER_9)  &kp KP_PLUS  &kp KP_SUBTRACT  &kp LESS_THAN    &kp GT           &kp QMARK             &kp BSLH
+&kp ESC           &kp EXCL      &kp AT_SIGN      &kp HASH                      &kp DOLLAR  &kp PERCENT                                        &kp RBRC     &kp F8           &kp KP_MULTIPLY       &kp ASTERISK              &kp LEFT_PARENTHESIS  &kp F12
+&kp TAB           &kp SQT       &kp KP_ASTERISK  &kp NUMBER_6                  &kp N4      &kp N5                                             &kp N6       &kp HOME         &kp UP_ARROW          &kp END                   &kp PG_UP             &trans
+&kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3                  &kp F5      &kp F6                                             &trans       &kp LEFT         &kp DOWN              &kp RIGHT_ARROW           &kp PG_DN             &trans
+&kp LS(NUMBER_6)  &kp F8        &kp F9           &kp F10                       &kp F11     &kp F12      &kp RA(NUMBER_8)    &kp RA(NUMBER_9)  &kp KP_PLUS  &kp KP_SUBTRACT  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp QMARK             &kp BSLH
                                                  &kp LA(C_AL_GRAPHICS_EDITOR)  &trans      &trans       &trans              &trans            &trans       &trans           &trans
             >;
 
@@ -120,7 +120,7 @@
             bindings = <
 &trans         &trans     &trans                 &trans  &trans  &trans                    &trans  &trans             &trans            &trans           &trans  &trans
 &kp PIPE       &kp PIPE2  &kp LS(RA(LESS_THAN))  &trans  &trans  &trans                    &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans
-&kp LESS_THAN  &kp LT     &trans                 &trans  &trans  &trans                    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &trans
+&kp LESS_THAN  &kp LT     &kp NON_US_BACKSLASH   &trans  &trans  &trans                    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &trans
 &trans         &trans     &trans                 &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans            &trans           &trans  &trans
                                                  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans
             >;
