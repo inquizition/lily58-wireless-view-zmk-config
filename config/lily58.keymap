@@ -86,11 +86,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &trans           &trans           &trans           &trans           &trans         &trans
-&kp F1        &kp F1        &kp F2        &kp F3        &kp F10       &kp DOLLAR                                    &kp F7           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RA(W)      &kp RA(W)
-&kp GRAVE     &kp F4        &kp F5        &kp F6        &kp F11       &kp PRCNT                                     &kp CARET        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &o_double_dot  &a_double_dot
-&kp LS(BSLH)  &kp F7        &kp F8        &kp F9        &kp F12       &kp ASTERISK  &kp LS(N8)    &kp LS(NUMBER_9)  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBRC       &kp RA(NON_US_BACKSLASH)
-                                          &trans        &trans        &trans        &trans        &trans            &kp KP_NUMBER_0  &kp DEL          &trans
+&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &trans           &kp NON_US_BACKSLASH  &trans           &trans           &trans         &trans
+&kp F1        &kp F1        &kp F2        &kp F3        &kp F10       &kp DOLLAR                                    &kp F7           &kp KP_NUMBER_7       &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RA(W)      &kp RA(W)
+&kp GRAVE     &kp F4        &kp F5        &kp F6        &kp F11       &kp PRCNT                                     &kp CARET        &kp KP_NUMBER_4       &kp KP_NUMBER_5  &kp KP_NUMBER_6  &o_double_dot  &a_double_dot
+&kp LS(BSLH)  &kp F7        &kp F8        &kp F9        &kp F12       &kp ASTERISK  &kp LS(N8)    &kp LS(NUMBER_9)  &trans           &kp KP_NUMBER_1       &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBRC       &kp RA(NON_US_BACKSLASH)
+                                          &trans        &trans        &trans        &trans        &trans            &kp KP_NUMBER_0  &kp DEL               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
